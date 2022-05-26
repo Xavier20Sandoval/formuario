@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario intento 2</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="tarjeta">
+            <header class="encabezado">
+                <div class="linea1">
+                    <a href="#"><span class="material-symbols-outlined icon" style="font-size: 35px;" >
+                        house
+                        </span></a>
+                    <h5>Alta Nueva Asignacion</h5>
+                    <a href=""><span class="material-symbols-outlined" style="font-size: 35px;">
+                        logout
+                        </span></a>
+                </div>
+                <div class="linea2">
+                    <h3>1.Ficha General Crédito</h3>
+                </div>
+                <div class="linea3">
+                    <h3>1/5</h3>
+                </div>
+            </header>
+        </div>
+        <!--Empezamos formulario-->
+        <div class="contenedor2">
+            <section class="seccion">
+                <h2 class="titulo">1.1Información General</h2><br>
+                <div class="formulario">
+                    <form action="">
+                        <ol start="1">
+                            <li> <label for="fecha">Fecha Solicitud WO: </label>  <input class="entrada" type="date" id="fecha"> </li>
+                            <li>  <label for="GE"> Grupo Economico:<span class="material-symbols-outlined" style="color: blue;">help</span></label><input class="entrada" type="text" id="GE"> </li>
+                            <li>  <label for="NA">N° de Acreditados:<span class="material-symbols-outlined" style="color: blue;">help</span></label> <select name="num" id="1"> 
+                                <option value="1" selected="1">1</option>
+                                <option value="">2</option>
+                                
+                            </select> </li>
+                            <li> <label for="A1"> Acreditado 1:<span class="material-symbols-outlined" style="color: blue;">help</span></label> <input class="entrada" type="text" id="A1"> </li>
+                            <li>  <label for="CR">CR Origen Adeudo:<span class="material-symbols-outlined" style="color: blue;">help</span></label> <input class="entrada" type="text" id="CR" readonly style="background-color: gray; opacity: .4;"> </li>
+                            <li>  <label for="NC">Numero de Crédito:<span class="material-symbols-outlined" style="color: blue;">help</span></label> <input class="entrada" type="text" id="NC" readonly style="background-color: gray; opacity: .4;" > </label></li>
+                            <li>  <label for="TC"> Tipo de Credito o Adeudo:<span class="material-symbols-outlined" style="color: blue;">help</span></label> </label> <select name="num" id="1"> 
+                                <option value="1" selected="1">1</option>
+                                <option value="">2</option>
+                                
+                            </select> </li>
+                            <div class="tresP">
+                                <li>  <label for="fecha">Division Work Out:<span class="material-symbols-outlined" style="color: blue;">help</span></label></label> <select name="num" id="1"> 
+                                    <option value="1" selected="1">1</option>
+                                    <option value="">2</option>
+                                    
+                                </select> </li>
+                                <li>  <label for="fecha">Ejecutivo Work Out:<span class="material-symbols-outlined" style="color: blue;">help</span></label> </label> <select name="num" id="1"> 
+                                    <option value="1" selected="1">1</option>
+                                    <option value="">2</option>
+                                    
+                                </select> </li>
+                                <li>  <label for="fecha">Abogado Interno:</label></label> <select name="num" id="1"> 
+                                    <option value="1" selected="1">1</option>
+                                    <option value="">2</option>
+                                    
+                                </select> </li>
+                            </div>
+                        </ol>
+                      
+                    </form>
+                </div>
+            </section>
+        </div>
+        <div class="contenedor3">
+            <footer>
+                <input type="button" value="Siguiente" class="btn1">
+                <input type="button" value="Cancelar" class="btn2">
+            </footer>
+
+        </div>
+    </div>
+</body>
+</html>
